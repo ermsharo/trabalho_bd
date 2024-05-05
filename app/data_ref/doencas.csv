@@ -1,0 +1,41 @@
+Especialidade Médica,Doença Tratada,Tratamento Recomendado,Remédios Recomendados
+Cardiologia,Doença Cardíaca,Medicação,Aspirina, Estatinas
+Cardiologia,Arritmia Cardíaca,Medicação,Bloqueadores beta, Antiarrítmicos
+Cardiologia,Insuficiência Cardíaca,Medicação,Inibidores da ECA, Diuréticos
+Cardiologia,Angina,Medicação,Nitratos, Beta-bloqueadores
+Cardiologia,Trombose,Medicação,Anticoagulantes, Trombolíticos
+Dermatologia,Acne,Cuidados com a pele,Limpeza diária, Uso de loções especiais
+Dermatologia,Eczema,Cuidados com a pele,Hidratantes, Corticosteroides tópicos
+Dermatologia,Psoríase,Cuidados com a pele,Hidratantes, Fototerapia
+Dermatologia,Dermatite Seborreica,Cuidados com a pele,Xampus anticaspa, Cremes antifúngicos
+Dermatologia,Herpes,Cuidados com a pele,Medicação antiviral, Analgésicos
+Ginecologia,Infecção Urinária,Antibióticos,Amoxicilina, Cefalexina
+Ginecologia,Endometriose,Medicação,Analgésicos, Anti-inflamatórios
+Ginecologia,HPV,Vacinação,HPV9, Gardasil
+Ginecologia,Menopausa,Tratamento Hormonal,Estrogênio, Progesterona
+Ginecologia,Gravidez,Suplementos Vitamínicos,Ácido Fólico, Ferro
+Neurologia,Enxaqueca,Medicação,Analgésicos, Triptanos
+Neurologia,Epilepsia,Anticonvulsivantes,Carbamazepina, Fenitoína
+Neurologia,Doença de Alzheimer,Medicação,Inibidores da colinesterase, Memantina
+Neurologia,Parkinson,Medicação,Levodopa, Agonistas dopaminérgicos
+Neurologia,Esclerose Múltipla,Medicação,Interferons, Corticosteroides
+Ortopedia,Fraturas,Imobilização,Gesso, Talas
+Ortopedia,Luxações,Redução Manual,Imobilização, Fisioterapia
+Ortopedia,Lesões nos ligamentos,Reabilitação,Fisioterapia, Cirurgia
+Ortopedia,Artrose,Medicação,Analgésicos, Anti-inflamatórios
+Ortopedia,Escoliose,Tratamento Conservador,Exercícios de fortalecimento, Uso de coletes
+Pediatria,Otite,Antibióticos,Amoxicilina, Azitromicina
+Pediatria,Asma,Medicação,Inaladores de corticosteroides, Broncodilatadores
+Pediatria,Varicela,Vacinação,Varicela (catapora) Vacina, Zostavax
+Pediatria,Obesidade,Reeducação Alimentar,Exercícios físicos, Acompanhamento nutricional
+Pediatria,Desnutrição,Suplementação Nutricional,Leite em pó fortificado, Suplementos vitamínicos
+Psiquiatria,Depressão,Psicoterapia,Medicação antidepressiva, Terapia cognitivo-comportamental
+Psiquiatria,Transtorno de Ansiedade,Psicoterapia,Medicação ansiolítica, Terapia cognitivo-comportamental
+Psiquiatria,Transtorno Bipolar,Medicação,Estabilizadores de humor, Antipsicóticos
+Psiquiatria,Esquizofrenia,Medicação,Antipsicóticos, Psicoterapia
+Psiquiatria,Transtorno Obsessivo-Compulsivo,Psicoterapia,Inibidores seletivos da recaptação de serotonina, Terapia comportamental
+Urologia,Câncer de Próstata,Cirurgia,Prostatectomia, Radioterapia
+Urologia,Infertilidade Masculina,Tratamento hormonal,Clomifeno, Gonadotrofina coriônica
+Urologia,Incontinência Urinária,Exercícios de Kegel,Medicação anticolinérgica, Cirurgia
+Urologia,Cálculos Renais,Tratamento conservador,Hidratação, Analgésicos
+Urologia,Disfunção Erétil,Medicação,Viagra, Cialis
