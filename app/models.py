@@ -22,10 +22,10 @@ class EXERC_ESP(db.Model):
     id_especialidade = db.Column(db.Text)
 
 class MEDICO(db.Model):
-    crm = db.Column(db.Integer, primary_key=True)
+    crm = db.Column(db.Text, primary_key=True)
     nome_medico = db.Column(db.Text)
     telefone_medico = db.Column(db.Text)
-    porcentual = db.Column(db.Text)
+    porcentual = db.Column(db.float)
 
 class DOENCA(db.Model):
     id_doenca = db.Column(db.Integer, primary_key=True)
@@ -36,10 +36,10 @@ class CONSULTA(db.Model):
     id_consulta = db.Column(db.Integer, primary_key=True)
     crm = db.Column(db.Text)
     id_especialidade = db.Column(db.Text)
-    id_paciente = = db.Column(db.Text)
-    data = db.Column(db.Text)
-    hora_inicio =  db.Column(db.Text)
-    hora_fim = db.Column(db.Text)
+    id_paciente =  db.Column(db.Text)
+    data = db.Column(db.Date)
+    hora_inicio =  db.Column(db.Datetime)
+    hora_fim = db.Column(db.Datetime)
     pagou = db.Column(db.Text)
     valor_pago = db.Column(db.Text)
     forma_pagamento = db.Column(db.Text)
@@ -48,7 +48,7 @@ class DIAGNOSTICO(db.Model):
     id_diagnostico = db.Column(db.Integer, primary_key=True)
     tratamento_recomendado = db.Column(db.Text)
     remedios_receitados = db.Column(db.Text)
-    observacoes = = db.Column(db.Text)
+    observacoes =  db.Column(db.Text)
     id_consulta = db.Column(db.Text)
 
 
