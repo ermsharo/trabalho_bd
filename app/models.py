@@ -9,15 +9,14 @@ class ESPECIALIDADE(db.Model):
     __tablename__ = "especialidade"
     nome_especialidade = db.Column(db.Text)
     id_especialidade =  db.Column(db.Text, primary_key=True)
-    # id_especialidade = db.Column(db.Text, db.ForeignKey("client_by_cc.CC"))
 
 
 class AGENDA(db.Model):
     __tablename__ = "agenda"
     id_agenda = db.Column(db.Integer, primary_key=True)
     dia_semana = db.Column(db.Text)
-    hora_inicio = db.Column(db.Text)
-    hora_fim = db.Column(db.Text)
+    hora_inicio = db.Column(db.Integer) #convert time in minutes
+    hora_fim = db.Column(db.Integer)
     crm = db.Column(db.Text, db.ForeignKey("medico.crm"))
 
 class EXERC_ESP(db.Model):
@@ -50,12 +49,12 @@ class DIAGNOSTICA(db.Model):
 class CONSULTA(db.Model):
     __tablename__ = "consulta"
     id_consulta = db.Column(db.Integer, primary_key=True)
-    crm = db.Column(db.Text)
-    id_especialidade = db.Column(db.Text)
-    id_paciente =  db.Column(db.Text)
+    crm = db.Column(db.Text, db.ForeignKey("medico.crm"))
+    id_especialidade = db.Column(db.Integer, db.ForeignKey("exerc_esp.id"))
+    id_paciente =  db.Column(db.Text, db.ForeignKey("paciente.id_paciente"))
     data = db.Column(db.Date)
-    hora_inicio =  db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    hora_fim = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    hora_inicio =db.Column(db.Integer)
+    hora_fim = db.Column(db.Integer)
     pagou = db.Column(db.Text)
     valor_pago = db.Column(db.Text)
     forma_pagamento = db.Column(db.Text)
