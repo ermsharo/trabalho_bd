@@ -21,7 +21,7 @@ class AGENDA(db.Model):
 
 class EXERC_ESP(db.Model):
     __tablename__ = "exerc_esp"
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Text, primary_key=True)
     crm = db.Column(db.Text, db.ForeignKey("medico.crm"))
     id_especialidade = db.Column(db.Text, db.ForeignKey("especialidade.id_especialidade"))
 
@@ -50,7 +50,7 @@ class CONSULTA(db.Model):
     __tablename__ = "consulta"
     id_consulta = db.Column(db.Integer, primary_key=True)
     crm = db.Column(db.Text, db.ForeignKey("medico.crm"))
-    id_especialidade = db.Column(db.Integer, db.ForeignKey("exerc_esp.id"))
+    id_especialidade = db.Column(db.Text, db.ForeignKey("especialidade.id_especialidade"))
     id_paciente =  db.Column(db.Text, db.ForeignKey("paciente.id_paciente"))
     data = db.Column(db.Date)
     hora_inicio =db.Column(db.Integer)
